@@ -1,0 +1,14 @@
+<launch>
+    <param name = "foo" value = "$(env Hello)"/>
+    <param name = "bar" value = "$(optenv World 50)"/>
+
+    <arg name = "a_" default = "hello"/>
+    <arg name = "b_" default = "hello!"/>
+
+    <node name = "hello_world" pkg="basics" type = "launch_example.py">
+        <param name="a" type="string" value="$(arg a_)" />
+        <param name="b" type="string" value="$(arg b_)" />
+        <remap from = "chatter" to="hello"/>
+    </node>
+
+</launch>

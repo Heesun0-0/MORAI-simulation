@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/wego/ros_workspace/kw_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/wego/ros_workspace/kw_ws/src/limo_gazebo/limo_gazebo_sim/include/**",
+        "/home/wego/ros_workspace/kw_ws/src/obstacle_detector/include/**",
+        "/home/wego/ros_workspace/kw_ws/src/limo_gazebo/robot_localization/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
